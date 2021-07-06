@@ -1,0 +1,26 @@
+to see the movements and no. of moves:
+https://www.mathsisfun.com/games/towerofhanoi.html
+
+https://runestone.academy/runestone/books/published/pythonds/Recursion/TowerofHanoi.html
+
+
+Wiki explanation of the pattern:
+Simpler statement of iterative solution
+
+For an even number of disks:
+
+make the legal move between pegs A and C (in either direction),
+make the legal move between pegs A and B (in either direction),
+make the legal move between pegs C and B (in either direction),
+repeat until complete.
+
+
+For an odd number of disks:
+
+make the legal move between pegs A and B (in either direction),
+make the legal move between pegs A and C (in either direction),
+make the legal move between pegs C and B (in either direction),
+repeat until complete.
+
+In each case, a total of 2^n − 1 moves are made.
+
