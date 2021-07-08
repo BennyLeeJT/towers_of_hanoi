@@ -1,6 +1,9 @@
 to see the movements and no. of moves:
 https://www.mathsisfun.com/games/towerofhanoi.html
 
+3D view
+http://towersofhanoi.info/Play.aspx
+
 https://runestone.academy/runestone/books/published/pythonds/Recursion/TowerofHanoi.html
 
 

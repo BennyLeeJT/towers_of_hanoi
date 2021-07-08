@@ -6,6 +6,7 @@
 
 def reversed_tower_order(tower):
     # syntax range(start, stop, step)
+    # start at last index, end at index 0 (before -1), interval of 1 decreasing
     result = ""
     for i in range(len(tower)-1, -1, -1):   
         result += str(tower[i]) + " "
@@ -102,9 +103,12 @@ else:
     # initialize the 3 towers, with the FROM Tower containing the number of disks as inputted by user
     
     # FROM Tower
-    tower_A = []
+    # iterate through the range based on user input, starting from 1 
     tower_A = [i+1 for i in range(n)] 
-    
+    # if n = 4 disks
+    # [1, 2, 3, 4]
+
+
     # TO Tower
     tower_B = [] 
 
